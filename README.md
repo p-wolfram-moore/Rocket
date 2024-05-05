@@ -2,7 +2,9 @@
 
 Have you ever wondered if 2D images could be analyzed like time series arrays?  While images do not have explicit temporal associations between pixels, the layering of columns and rows does in fact provide time-like frequency and structure to the array and can be analyzed in a similar fashion.
 
-This notebook performs a number of preprocessing steps to reorder pixels in the MNIST handwritten digits in order to exploit the pixel-adjacent associations and information contained therein.  
+This notebook performs a number of preprocessing steps to reorder pixels in the MNIST handwritten digits in order to exploit the pixel-adjacent associations and information contained therein.  The hypothesis is that images can be treated similar to time series arrays because it captures patterns that occur on a frequency-like basis.  
+
+Consider how in a 60x60 pixel image that the first pixel in the first row, first column is next to both the first pixel in the second row and first pixel in the second column.  If you flatten a 2D image (either row-wise or column-wise), the result is every 60th pixel is in fact associated - a frequency that can be considered in a way similar to a time series with a pattern occuring every minute (60 seconds). 
 
 ### DOWNLOAD THE ORIGINAL MNIST DATASET
 
