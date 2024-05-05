@@ -5,7 +5,7 @@ Code for practical implementation of Rocket methods
 
 As of 24 October 2023, this readme file is still being developed and the code refined for quality.  Please feel free to use it in the meantime and check back in the future for progress.
 
-# DOWNLOAD THE ORIGINAL MNIST DATASET
+### DOWNLOAD THE ORIGINAL MNIST DATASET
 
 I used the following link to download a .csv represetnation of the original MNIST dataset, but feel free to use whatever source you find.
 
