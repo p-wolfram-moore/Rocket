@@ -1,5 +1,8 @@
-# Rocket
-Code for practical implementation of Rocket methods
+# Image Classification with Time Series Dimension Reduction Methods
+
+Have you ever wondered if 2D images could be analyzed like time series arrays?  While images do not have explicit temporal associations between pixels, the layering of columns and rows does in fact provide time-like frequency and structure to the array and can be analyzed in a similar fashion.
+
+This notebook performs a number of preprocessing steps to reorder pixels in the MNIST handwritten digits in order to exploit the pixel-adjacent associations and information contained therein.  
 
 ### DOWNLOAD THE ORIGINAL MNIST DATASET
 
